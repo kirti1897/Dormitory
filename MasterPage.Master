@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="DormFinal1.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Online Dormitory System </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.6.2.min.js"></script>
+<link href='//fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'/>
+
+<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css" />
+<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css"/>
+<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css"/>
+<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css" />
+<link rel="stylesheet" type="text/css" href="css/util.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<!DOCTYPE html>  
+<html> 
+    <body>
+<div class="header">
+    <div class="wrap">
+	    <div class="wrapper">
+ 	        <div class="logo">
+			    <a href="Home.aspx"><img src="images/idormlogo.png" /></a><p> Online Dormitory System</p> 
+	        </div>
+ 	<div class="menu">
+			<ul>
+				<li class="active"><a href="Home.aspx">Home</a></li>
+				<li><a href="Facility.aspx">Facility</a></li>
+			<!--	<li><a href="services.aspx">Services</a></li>-->
+                <li><a href="Feedback.aspx">Feedback</a></li>
+				<li><a href="Rules.aspx">Rules & Regulation</a></li>
+                <!--<li><a href="Medical.aspx">Medical Certificate</a></li>
+                <li><a href="Bond.aspx">Indemnity Bond</a></li>-->
+                <li><a href="Docs1.aspx">Documents</a></li>
+                <li> 
+                <div class="dropdown">
+                    <button class="dropbtn">SIGN-UP</button>
+                    <div class="dropdown-content">
+                        <a href="hostReg.aspx">Hosteller</a>
+                        <%--<a href="wardenregist.aspx">Warden</a>
+                        <a href="AdminRegi.aspx">Admin</a>--%>
+                     </div>
+                </div>
+                </li>
+                <li>
+                <div class="dropdown">
+                    <button class="dropbtn">SIGN-IN</button>
+                    <div class="dropdown-content">
+                        <a href="hsin.aspx">Hosteller</a>
+                        <a href="wrin.aspx">Warden</a>
+                        <%--<a href="adin.aspx">Admin</a>--%>
+                     </div>
+                </div>
+                </li>
+                   <%--<a href="hostin.aspx">Sign-IN</a>
+                --%>
+                <!--<li><a href="hostellerRegist.aspx">Sign-Up for Hosteller</a></li>
+  				<li><a href="wardenRegist.aspx">Sign-Up for Warden</a></li>-->
+                <li><a href="contact.aspx">Contact</a></li>
+			</ul>
+			 <div class="clear"></div> 
+	</div>
+	
+ 
+<div class="content">
+<div class="content-top">
+    <div>  
+         
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>  
+    </div>  
+</div>
+ </div>
+</div>
+</div>
+</div>
+<div class="content-bottom">
+<div class="wrap">
+	<div class="bottom-gallery">			
+			<div class="bottom-image">
+				<img src="images/banner4.jpg">
+			</div>
+			<div class="bottom-image">
+				<img src="images/baneer3.jpg">
+			</div>
+			<div class="bottom-image">
+				<img src="images/baneer2.jpg">
+			</div>
+			<div class="bottom-image1">
+				<img src="images/baneer1.jpg">
+			</div>
+			<div class="clear"></div>
+	</div>
+ </div>
+</div>
+<div class="footer">
+</div>	
+<div class="footer-bottom">
+<div class="wrap">	
+	<div class="copy">
+		<p>&copy; 2019 Online Dormitory System . All rights Reserved | Design by K&R</p>
+	</div>
+ </div>
+</div>
+
+</body>
+</html>
+ 
+</body>  
+</html> 
